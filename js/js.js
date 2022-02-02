@@ -337,19 +337,19 @@ function start() {  // Inicio da função start()
     //Barra de energia
     function energia() {        
         if (energiaAtual == 3) {            
-            $("#energia").css("background-image", "url(img/energia3.png)");
+            $("#energia").css("background-image", "url(../img/energia3.png)");
         }
 
         if (energiaAtual == 2) {            
-            $("#energia").css("background-image", "url(img/energia2.png)");
+            $("#energia").css("background-image", "url(../img/energia2.png)");
         }
 
         if (energiaAtual == 1) {            
-            $("#energia").css("background-image", "url(img/energia1.png)");
+            $("#energia").css("background-image", "url(../img/energia1.png)");
         }
 
         if (energiaAtual == 0) {            
-            $("#energia").css("background-image", "url(img/energia0.png)");
+            $("#energia").css("background-image", "url(../img/energia0.png)");
             
             gameOver(); // Game Over
         }
